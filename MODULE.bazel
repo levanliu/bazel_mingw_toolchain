@@ -1,0 +1,4 @@
+module(
+    name = "mingw_bazel",
+    repo_name = "mingw_bazel",
+)
