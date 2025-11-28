@@ -51,7 +51,7 @@ def _impl(ctx):
                 ),
                 tool_path(
                     name = "gcc",
-                    path = MINGW_PATH + "/bin/g++",
+                    path = MINGW_PATH + "/bin/gcc",
                 ),
                 tool_path(
                     name = "gcov",
@@ -59,7 +59,7 @@ def _impl(ctx):
                 ),
                 tool_path(
                     name = "ld",
-                    path = MINGW_PATH + "/bin/ld",
+                    path = MINGW_PATH + "/bin/g++",
                 ),
                 tool_path(
                     name = "nm",
